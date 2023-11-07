@@ -11,9 +11,9 @@ public class Main {
 		String config_loc = "classpath:com/rohit/resources/applicationContext.xml";
 
 		ApplicationContext context = new ClassPathXmlApplicationContext(config_loc);
-		
+
 		Student std = (Student) context.getBean("stdId");
 		std.display();
-		
+
 	}
 }
