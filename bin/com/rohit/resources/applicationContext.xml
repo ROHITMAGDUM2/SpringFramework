@@ -9,6 +9,6 @@
 	<bean class="com.rohit.beans.Student" id="stdId">
 		<property name="name" value="Rohit" />
 		<property name="rollno" value="120" />
-		<property name="email" value="rohitmagdum2@gmail.com" />
+		<property name="email" value="rohitmagdum2@gmail.com"/>
 	</bean>
 </beans>
